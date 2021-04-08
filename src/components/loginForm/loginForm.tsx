@@ -17,7 +17,7 @@ const LoginForm = () => {
         setchecked(event.target.checked);
     }
 
-    const textStyles = makeStyles({
+    const loginStyles = makeStyles({
         myBox: {
             marginTop: "60px",
             display: "flex",
@@ -53,7 +53,7 @@ const LoginForm = () => {
         }
     })
 
-    const classes = textStyles()
+    const classes = loginStyles()
 
     const preventDefault = (event: React.SyntheticEvent) => event.preventDefault();
 
@@ -95,7 +95,7 @@ const LoginForm = () => {
                             <p className={classes.secondaryText}>
                                 Copyright &copy;&nbsp;
                                 <Link color="inherit" href="#">
-                                    RSCoroperation.com
+                                    YourCompany.com
                                 </Link>
                                 &nbsp;2021
                             </p>
